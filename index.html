@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Todo List ✨</h1>
+    <p>Organize your life with beautiful, simple task management</p>
+
+    <div class="quick-add">
+      <input type="text" id="quickTask" placeholder="What needs to be done?">
+
+      <select id="category-select">
+        <option value="" disabled selected hidden>Add Category</option>
+      </select>
+    </div>
+
+    <button onclick="addQuickTask()">Add</button>
+    <div class="buttons">
+      <a href="categories.html" class="btn">📂 View Categories</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Category</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Create New Category ✨</h1 >
+
+    <input type="text" id="categoryName" placeholder="e.g., Work, Personal, Health">
+    
+    <h3>🎨 Choose a Color Theme</h3>
+    <div class="colors">
+      <div class="theme-options">
+        <label class="theme-pink theme-option">
+          <input type="radio" name="theme" value="theme-pink" checked>
+          <div class="theme-preview"></div>
+          🌸Pink Sunset
+        </label>
+        <label class="theme-blue theme-option">
+          <input type="radio" name="theme" value="theme-blue">
+          <div class="theme-preview"></div>
+          🌊Ocean Breeze
+        </label>
+        <label class="theme-yellow theme-option">
+          <input type="radio" name="theme" value="theme-yellow">
+          <div class="theme-preview"></div>
+         🌞Golden Hour
+        </label>
+        <label class="theme-peach theme-option">
+          <input type="radio" name="theme" value="theme-peach">
+          <div class="theme-preview"></div>
+          🍑Soft Peach
+        </label>
+        <label class="theme-purple theme-option">
+          <input type="radio" name="theme" value="theme-purple">
+          <div class="theme-preview"></div>
+          🟣Purple Dream
+        </label>
+    </div>
+    <div>
+    <button onclick="createCategory()">✨ Create Category</button>
+  </div>
+
+  <div>
+      <a href="categories.html" class="back-btn">← Back</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

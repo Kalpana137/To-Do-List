@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Categories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌈 My Categories</h1>
+    <div class="category-list">
+      <div class="card-grid"></div>
+      <div>
+    <a href="add-categories.html" class="add-category-btn">➕ Add Category</a>
+    <div>
+    <a href="index.html" class="back-btn">← Back</a>
+    </div>
+      </div>
+    </div>
+    <div id="task-page" class="page">
+      <h3 id="category-title"></h3>
+      <div class="input-boxess" style="display:none;">
+        <input type="text" id="task-input" placeholder="Enter a new task...">
+        <button onclick="addTask()">Add</button>
+        <ul id="category-task-list" class="task-item">
+        <li>
+      <input type="checkbox" onchange="toggleTask(0)">
+      <button onclick="deleteTask(0)">❌</button>
+    </li>
+        </ul>
+      </div>
+      <a href="categories.html" class="back-btn">← Back</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
