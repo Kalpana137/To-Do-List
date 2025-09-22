@@ -22,4 +22,4 @@ A **beautiful and functional To-Do List app** that lets you add tasks, categoriz
 ### 🖥️ How to Run Locally
 1. Clone the repo:
 ```bash
-git clone https://github.com/Kalpana137/todo-list.git
+git clone https://kalpana137.github.io/To-Do-List/
